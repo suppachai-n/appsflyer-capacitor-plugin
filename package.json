@@ -48,7 +48,8 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "rimraf": "./node_modules/rimraf/bin.js"
+    "rimraf": "./node_modules/rimraf/bin.js",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@angular/cli": "^12.1.1",
